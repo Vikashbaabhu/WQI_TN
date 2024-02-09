@@ -93,7 +93,7 @@ def main():
     """
     
     st.markdown(html_temp,unsafe_allow_html=True)
-    year = st.number_input("Year",step=1,min_value=2023,value='min')
+    year = st.number_input("Year",step=1,min_value=2023,value=2023)
     #temp min - 24
     #temp = 30
     # do min - 5
