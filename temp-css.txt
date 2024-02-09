@@ -1,0 +1,54 @@
+temp=css:
+.st-emotion-cache-kskxxl.e116k4er3 {
+    border-color:white;
+}
+
+div.stTextArea {
+    height:69px;
+    width:224px;
+    border-color:white;
+}
+
+div.st-emotion-cache-1om1ktf.ezh4s2r0 {
+    height:40px;
+    width:224px;
+    border-color:white;
+}
+
+div.st-ae.st-af.st-ag.st-ah.st-bt.st-bu.st-bv.st-bw.st-am.st-an.st-ao.st-ap.st-aq.st-ar.st-as.st-at.st-au.st-bx.st-by.st-b3.st-b4.st-b5.st-b6.st-b7.st-b8.st-b9 {
+    height:40px;
+    width:224px;
+    border-color:white;
+}
+
+div.st-af.st-ah.st-ba.st-ar.st-as.st-ax.st-ay.st-az.st-b0.st-b1.st-b2.st-bb.st-b7 {
+    height:40px;
+    width:224px;
+    border-color:white;
+}
+
+textarea.st-ae.st-bc.st-ai.st-aj.st-ak.st-al.st-bd.st-be.st-bf.st-bg.st-bh.st-ah.st-bi.st-bj.st-bk.st-bl.st-bz.st-c0.st-c1.st-c2.st-ax.st-ay.st-az.st-bq.st-b1.st-b2.st-bb.st-br.st-bs.st-c3.st-c4.st-c5.st-c6 {
+    height:40px;
+    width:224px;
+    border-color:white;
+}
+
+div.st-emotion-cache-1om1ktf.ezh4s2r0 {
+    height:40px;
+    width:224px;
+    border-color:white;
+    align-items: center;
+}
+
+div.st-ae.st-af.st-ag.st-ah.st-bt.st-bu.st-bv.st-bw.st-am.st-an.st-ao.st-ap.st-aq.st-ar.st-as.st-at.st-au.st-bx.st-by.st-b3.st-b4.st-b5.st-b6.st-b7.st-b8.st-b9 {
+    height:40px;
+    width:224px;
+    border-color:white;
+}
+
+textarea.st-ae.st-bc.st-ai.st-aj.st-ak.st-al.st-bd.st-be.st-bf.st-bg.st-bh.st-ah.st-bi.st-bj.st-bk.st-bl.st-bz.st-c0.st-c1.st-c2.st-ax.st-ay.st-az.st-bq.st-b1.st-b2.st-bb.st-br.st-bs.st-c3.st-c4.st-c5.st-c6 {
+    height:40px;
+    width:224px;
+    border-color:white;
+    align-items:center;
+}
