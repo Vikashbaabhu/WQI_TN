@@ -111,7 +111,7 @@ def main():
     #tc min - 7800
     #tc = 8400000
     result=""
-    if st.button("**Predict**"):
+    if st.button("Predict"):
         tem = temp(year)
         do = dox(year,tem[0])
         ph = pH(year,tem[0],do[0])
@@ -122,8 +122,8 @@ def main():
         tot = total(year,tem[0],do[0],ph[0],con[0],bod[0],nit[0],fec[0])
         c1,c2,c3 = st.columns(3)
         c1.write("**Physical Parameters :**")
-        c2.text_area(label="**Temperature**", value="{:.2f}".format(tem[0]))
-        c3.text_area(label="**Conductivity**", value="{:.2f}".format(con[0]))
+        c2.text_area(label="Temperature", value="{:.2f}".format(tem[0]))
+        c3.text_area(label="Conductivity", value="{:.2f}".format(con[0]))
         c1.write("")
         c1.write("")
         c1.write("")
@@ -132,8 +132,8 @@ def main():
         c1.write("")
         c1.write("")
         c1.write("**Chemical Parameters :**")
-        c2.text_area(label="**Dissolved Oxygen**", value="{:.2f}".format(do[0]))
-        c3.text_area(label="**pH**", value="{:.2f}".format(ph[0]))
+        c2.text_area(label="Dissolved Oxygen", value="{:.2f}".format(do[0]))
+        c3.text_area(label="pH", value="{:.2f}".format(ph[0]))
         c1.write("")
         c1.write("")
         c1.write("")
@@ -141,10 +141,10 @@ def main():
         c1.write("")
         c1.write("")
         c1.write("**Biological Parameters :**")
-        c2.text_area(label="**Bio-chemical Oxygen Demand**", value="{:.2f}".format(bod[0]))
-        c3.text_area(label="**Nitrate**", value="{:.2f}".format(nit[0]))
-        c2.text_area(label="**Fecal Coliform**", value="{:.2f}".format(fec[0]))
-        c3.text_area(label="**Total Coliform**", value="{:.2f}".format(tot[0]))
+        c2.text_area(label="Bio-chemical Oxygen Demand", value="{:.2f}".format(bod[0]))
+        c3.text_area(label="Nitrate", value="{:.2f}".format(nit[0]))
+        c2.text_area(label="Fecal Coliform", value="{:.2f}".format(fec[0]))
+        c3.text_area(label="Total Coliform", value="{:.2f}".format(tot[0]))
         result = wqix(year,tem[0],do[0],ph[0],con[0],bod[0],nit[0],fec[0],tot[0])
         st.success('**The Water Quality Index of the river is {:.2f}.**'.format(result[0]))
         
